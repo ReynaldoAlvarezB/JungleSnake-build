@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.ScoreTable {
+    /* background: black; */
+    background-image: url('https://i.imgur.com/F1zNeZl.png?');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    left: 730px;
+    top: 0px;
+
+    border-radius: 24.8px;  
+}
+
+#score_text {
+    position: absolute;
+    left: 16.32%;
+    right: 28.57%;
+    top: 16.77%;
+    bottom: 62.11%;
+
+    font-family: Fredoka One;
+    font-style: normal;
+    font-weight: bolder;
+    -webkit-text-stroke:  1px white;
+    font-size: 37px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#score_number {
+    height: 55px;
+    width: 146px;
+    position: absolute;
+    left: 31.57%;
+    right: 9.32%;
+    top: 48.45%;
+    bottom: 21.12%;
+    
+    font-family: Fredoka One;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-text-stroke:  2px white;
+    font-size: 47.205px;
+    line-height: 57px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+
+@media (max-width: 425px) {
+    .ScoreTable {
+        /* background: black; */
+        background-image: url('https://i.imgur.com/F1zNeZl.png?');
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: center;
+        position: absolute;
+        width: 300px;
+        height: 180px;
+        left: 690px;
+        top: 140px;
+    
+        border-radius: 24.8px;  
+    }
+}
